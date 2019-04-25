@@ -22,7 +22,7 @@ namespace aspnetcoreapp
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>()
-                .UseUrls("http://0.0.0.1:8080/");
+                .UseUrls("http://0.0.0.0:8080/");
 
     }
 }

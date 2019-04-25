@@ -1,0 +1,9 @@
+provider:
+  name: openfaas
+
+functions:
+  dotnet:
+    image: alexellis/dotnetcore-tester-service:0.2.0
+    lang: dockerfile
+    handler: ./
+
