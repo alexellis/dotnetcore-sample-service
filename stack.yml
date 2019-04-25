@@ -3,7 +3,7 @@ provider:
 
 functions:
   dotnet:
-    image: alexellis/dotnetcore-tester-service:0.2.2
+    image: alexellis/dotnetcore-tester-service:0.2.3
     lang: dockerfile
     handler: ./
 

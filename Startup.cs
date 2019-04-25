@@ -52,7 +52,7 @@ namespace aspnetcoreapp
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseCookiePolicy();
-
+            app.UsePathBase("/function/dotnet/");
             app.UseMvc();
         }
     }
